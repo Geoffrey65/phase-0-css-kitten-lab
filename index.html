@@ -3,38 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>CSS Kitten Wheelbarrow</title>
+  <!-- Link to the main stylesheet for wheelbarrow styling -->
   <link rel="stylesheet" href="css/wheelbarrow.css">
+  <!-- Link to the stylesheet for positioning kittens -->
   <link rel="stylesheet" href="css/place-kitty.css">
+  <!-- Link to the modified styles for additional styling -->
+  <link rel="stylesheet" href="css/modified-styles.css">
 </head>
 <body>
+  <!-- Main wrapper for the content -->
   <div class="wrapper">
-    <!-- Wheelbarrow -->
+    <!-- Wheelbarrow container -->
     <div id="wheelbarrow"></div>
     <div id="wheelbarrow-foreground"></div>
-
-
-    <!-- Kitties -->
-
-    <img src="images/kitty-5.png" alt="Kitty 5">
-
+    
+    <!-- Kitty 1 with class kitty-1 -->
     <img class="kitty-1" src="images/kitty-1.png" alt="Kitty 1">
-
+    <!-- Kitty 2 with ID kitty-2 -->
     <img id="kitty-2" src="images/kitty-2.png" alt="Kitty 2">
-
+    
+    <!-- Kitty 3 inside the basket -->
     <div id="basket">
       <img src="images/kitty-3.png" alt="kitty 3">
     </div>
 
+    <!--Adding a placeholder for the ball element -->
     <div id="ball"></div>
-    <img src="images/kitty-4.png" alt="kitty 4">
     
-
-  </div><!-- .wrapper -->
+    <!-- Other kitties -->
+    <img src="images/kitty-4.png" alt="kitty 4">
+    <img src="images/kitty-5.png" alt="Kitty 5">
+  </div>
+  
+  <!-- Audio player for purring sound -->
   <audio id="player1">
     <source src="audio/purrr.mp3" type="audio/mp3">
     <source src="audio/purrr.ogg" type="audio/ogg">
   </audio>
+
+  <!-- External scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- Script for purr-click functionality -->
   <script src="js/purr-click.js"></script>
 </body>
 </html>
